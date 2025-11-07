@@ -13,7 +13,7 @@ This project demonstrates several fundamental grayscale image processing operati
 
 The following questions are implemented in STM32 CUBE IDE:
 
-- **Storing an image:** We store an 255 by 255 image on the memory of stm32f4 board.
+- **Storing an image:** We store an 64 by 64 image on the memory of stm32f4 board.
 - **Negative Transformation:** Inverts pixel intensity as `255 - pixel`.
 - **Thresholding:** Converts the image into a binary representation using a user-defined threshold.
 - **Gamma Correction:** Uses lookup tables (LUTs) to apply nonlinear intensity adjustments for γ = 3 and γ = 1/3.
