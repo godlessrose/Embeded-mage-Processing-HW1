@@ -25,7 +25,13 @@ The following transformations are implemented in C:
 
 ### 1. Gamma Correction
 ![Gamma 3](gamma3.png)
+<br/>
 
+<div align="center">
+  <img src="images\gamma3.png" width="80%">
+</div>
+
+ <br/>
 ### 2. Gamma Correction
 ![Gamma 0.33](gamma033.png)
 
