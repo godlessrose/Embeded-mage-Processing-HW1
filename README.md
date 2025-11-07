@@ -9,10 +9,11 @@
 ---
 
 ## Project Description
-This project demonstrates several fundamental grayscale image processing operations implemented on an embedded system (ARM Cortex-M MCU). The raw grayscale image is stored in memory, processed on the microcontroller, and the output buffers are made viewable through the memory window.
+This project demonstrates several fundamental grayscale image processing operations implemented on an embedded system (STM32F446RET6). The raw grayscale image is stored in memory, processed on the microcontroller, and the output buffers are made viewable through the memory window.
 
-The following transformations are implemented in C:
+The following questions are implemented in STM32 CUBE IDE:
 
+- **Storing an image:** We store an 255 by 255 image on the memory of stm32f4 board.
 - **Negative Transformation:** Inverts pixel intensity as `255 - pixel`.
 - **Thresholding:** Converts the image into a binary representation using a user-defined threshold.
 - **Gamma Correction:** Uses lookup tables (LUTs) to apply nonlinear intensity adjustments for γ = 3 and γ = 1/3.
@@ -21,25 +22,38 @@ The following transformations are implemented in C:
 
 ---
 
-## Techniques Implemented
+## Answers
 
-### 1. Gamma Correction
-![Gamma 3](gamma3.png)
+### Q2-a) Negative Transformation
+<br/>
+<div align="center">
+  <img src="images\negative.png" width="80%">
+</div>
+
+### Q2-b) Thresholding
+<br/>
+<div align="center">
+  <img src="images\threshold.png" width="80%">
+</div>
+
+### Q2-c) Gamma Correction (γ = 3)
 <br/>
 
 <div align="center">
   <img src="images\gamma3.png" width="80%">
 </div>
 
- <br/>
-### 2. Gamma Correction
-![Gamma 0.33](gamma033.png)
 
-### 3. Negative Transformation
-![Negative Image](negative.png)
+### Q2-c. Gamma Correction (γ = 1/3)
+<br/>
+<div align="center">
+  <img src="images\gamma033.png" width="80%">
+</div>
 
-### 4. Thresholding
-![Threshold](threshold.png)
+### Q2-d) Piecewise Linear Transformation
+<br/>
+<div align="center">
+  <img src="images\pwlt.png" width="80%">
+</div>
 
----
 
