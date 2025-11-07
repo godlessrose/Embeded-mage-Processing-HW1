@@ -1,7 +1,5 @@
 #Embedded Digital Image Processing HW1
 
-### Group 6
-
 **Members:**
 | Name               | Student ID |
 |--------------------|--------------|
